@@ -4,7 +4,7 @@
 
 Локальная база материалов и настроек для Windows: фотографии, личная библиотека и обмен между подключёнными пользователями. Интернет не нужен для работы со своей базой. Программа хранит настройки, но не управляет лазером.
 
-[**Скачать 0.7.1 — предварительную тестовую версию**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.1) · [English](README.md) · [Сообщить об ошибке](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
+[**Скачать 0.7.2 — предварительную тестовую версию**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.2) · [English](README.md) · [Сообщить об ошибке](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
 
 > Нужна проверка между двумя настоящими компьютерами. Это первый публичный тестовый выпуск, а не завершённая версия. Сохраняйте резервные копии и сообщайте о воспроизводимых проблемах.
 
@@ -12,8 +12,8 @@
 
 | Вариант | Как пользоваться |
 | --- | --- |
-| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.1/TrapLight_LaserBase_v0.7.1_SETUP.exe) | Обычная установка для текущего пользователя, ярлык в меню «Пуск», по желанию — на рабочем столе. По умолчанию права администратора не нужны. |
-| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.1/TrapLight_LaserBase_v0.7.1_PORTABLE.zip) | Распакуйте в папку с правом записи и запустите `LaserBase.exe`. Не отделяйте программу от DLL и вложенных папок. |
+| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.2/TrapLight_LaserBase_v0.7.2_SETUP.exe) | Обычная установка для текущего пользователя, ярлык в меню «Пуск», по желанию — на рабочем столе. По умолчанию права администратора не нужны. |
+| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.2/TrapLight_LaserBase_v0.7.2_PORTABLE.zip) | Распакуйте в папку с правом записи и запустите `LaserBase.exe`. Не отделяйте программу от DLL и вложенных папок. |
 
 Windows x64. Сборки пока без цифровой подписи. Готовую базу настроек, проверенных изготовителем, не обещаем: материалы и результаты добавляют сами пользователи. Регистрация и подписка не нужны.
 

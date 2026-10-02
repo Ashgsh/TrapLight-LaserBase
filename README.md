@@ -6,7 +6,7 @@
 
 A Windows materials and settings library with photos, personal collections and direct peer-to-peer sharing. It works offline; connecting to another peer lets you exchange public records, photographs, ratings and feedback.
 
-[**Download 0.7.0 — early test release**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.0) · [Русский](README_RU.md) · [Report a problem](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
+[**Download 0.7.1 — early test release**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.1) · [Русский](README_RU.md) · [Report a problem](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
 
 > **Early testing:** real testing between two separate computers is still needed. Please keep backups and report reproducible problems. This application records settings; it does not control a laser.
 
@@ -14,8 +14,8 @@ A Windows materials and settings library with photos, personal collections and d
 
 | Download | Best for |
 | --- | --- |
-| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.0/TrapLight_LaserBase_v0.7.0_SETUP.exe) | Installation for your Windows account, a Start menu shortcut and an optional desktop shortcut. No administrator access required by default. |
-| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.0/TrapLight_LaserBase_v0.7.0_PORTABLE.zip) | Extract into a writable folder and run `LaserBase.exe`. Keep the DLLs and subfolders together. |
+| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.1/TrapLight_LaserBase_v0.7.1_SETUP.exe) | Installation for your Windows account, a Start menu shortcut and an optional desktop shortcut. No administrator access required by default. |
+| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.1/TrapLight_LaserBase_v0.7.1_PORTABLE.zip) | Extract into a writable folder and run `LaserBase.exe`. Keep the DLLs and subfolders together. |
 
 Windows x64. Neither download includes a preset database of manufacturer-tested material settings. The shared library starts with experiments contributed by users. No account or subscription is required. The current builds are not digitally signed.
 

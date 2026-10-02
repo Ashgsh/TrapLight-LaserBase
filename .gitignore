@@ -1,0 +1,16 @@
+*.exe
+*.dll
+*.zip
+*.lbbackup
+*.sqlite
+*.sqlite-*
+*.key
+*.pem
+*.cpp
+*.h
+data/
+network/
+logs/
+thumbs/
+.update/
+.env*

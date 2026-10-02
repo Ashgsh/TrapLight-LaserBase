@@ -1,0 +1,26 @@
+name: Two-computer test / Проверка на двух компьютерах
+description: Help verify real LAN sharing, photos and ratings.
+title: "[LAN test] "
+labels: [testing]
+body:
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup / Условия проверки
+      description: Version, Windows versions, selected devices/modules and connection direction. Do not include private keys.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: What worked / Что сработало
+      options:
+        - label: Material arrived without restarting / Материал пришёл без перезапуска
+        - label: All photographs arrived / Все фотографии пришли
+        - label: Rating appeared without reconnecting / Оценка появилась без переподключения
+        - label: Updated or removed photographs changed on the second peer / Изменение фотографий дошло до второго пользователя
+        - label: Connection recovered after interruption / Соединение восстановилось после обрыва
+  - type: textarea
+    id: problems
+    attributes:
+      label: Problems and observations / Проблемы и наблюдения

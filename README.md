@@ -6,7 +6,7 @@
 
 A Windows materials and settings library with photos, personal collections and direct peer-to-peer sharing. It works offline; connecting to another peer lets you exchange public records, photographs, ratings and feedback.
 
-[**Download 0.7.4 — early test release**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.4) · [Русский](README_RU.md) · [Report a problem](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
+[**Download 0.7.5 — early test release**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.5) · [Русский](README_RU.md) · [Report a problem](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
 
 > **Early testing:** real testing between two separate computers is still needed. Please keep backups and report reproducible problems. This application records settings; it does not control a laser.
 
@@ -14,8 +14,8 @@ A Windows materials and settings library with photos, personal collections and d
 
 | Download | Best for |
 | --- | --- |
-| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.4/TrapLight_LaserBase_v0.7.4_SETUP.exe) | Installation for your Windows account, a Start menu shortcut and an optional desktop shortcut. No administrator access required by default. |
-| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.4/TrapLight_LaserBase_v0.7.4_PORTABLE.zip) | Extract into a writable folder and run `LaserBase.exe`. Keep the DLLs and subfolders together. |
+| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.5/TrapLight_LaserBase_v0.7.5_SETUP.exe) | Installation for your Windows account, a Start menu shortcut and an optional desktop shortcut. No administrator access required by default. |
+| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.5/TrapLight_LaserBase_v0.7.5_PORTABLE.zip) | Extract into a writable folder and run `LaserBase.exe`. Keep the DLLs and subfolders together. |
 
 Windows x64. Neither download includes a preset database of manufacturer-tested material settings. The shared library starts with experiments contributed by users. No account or subscription is required. The current builds are not digitally signed.
 
@@ -29,19 +29,17 @@ Windows x64. Neither download includes a preset database of manufacturer-tested 
 - Save or restore your full private library as a single **`.lbbackup`** file.
 - Use English, Russian, Simplified Chinese, German, French or Spanish. Additional language files can be added locally.
 
-One material ID groups signed revisions. Open its revision arrow to see separate ratings, spam reports and photographs. Your saved copy has its own local ID and never changes when the author edits the public material. Replacing it with another revision requires your confirmation; saved recipes remain unchanged. Peers running older versions can relay materials and revision feedback, but need v0.7.4 to display revision-specific feedback.
+One material ID groups signed revisions. Open its revision arrow to see separate ratings, spam reports and photographs. Your saved copy has its own local ID and never changes when the author edits the public material. Replacing it with another revision requires your confirmation; saved recipes remain unchanged. Peers running older versions can relay materials and revision feedback, but need v0.7.5 to display revision-specific feedback.
 
 ![Library interface](images/library.png)
 
-## First connection between two computers
+## Automatic peer-to-peer connection
 
-1. Start a separate installation on each computer. Each should have a different **Peer ID**; avoid copying an existing identity to create another user.
-2. On computer B, open **Network** and start **Listen**. For a LAN connection, bind to an address reachable from computer A, such as B's LAN address; `127.0.0.1` only works on the same computer.
-3. On computer A, select **Connect**, enter B's LAN IP address and the listening port (default **45454**).
-4. Allow the connection through the Windows firewall on your private network when prompted. Public records, photos and feedback synchronize while connected. The connector retries if the listener is not ready yet.
-5. Browse **Knowledge Base** with the matching device/module selected. Saving another person's record is optional.
+Start LaserBase on each computer and accept the first-run rules. Discovery starts automatically through the public mainline DHT and the local network. Once peers authenticate, public signed materials, revisions, photographs, ratings and feedback synchronize. No TrapLight server or account is required. Choose **Network → Disconnect / work offline** to disable it persistently; manual IP connections remain under **Advanced**.
 
-Connections use **manually entered addresses**. Automatic peer discovery, internet connection traversal and search across the entire P2P network are not yet included. Search currently covers records already received by your installation. Public sharing includes the public fields and photographs of your experiments; private notes stay local.
+Allow LaserBase network access when Windows Firewall asks. IPv6 is supported, and compatible routers can open IPv4 ports through UPnP. Strict NAT, CGNAT and firewalls can still prevent direct connections: universal traversal is not implemented. Search covers received records. DHT-node counts are discovery contacts, not LaserBase users. Discovery advertises a network address; public traffic is signed but not encrypted. Private notes and identity keys remain local.
+
+**Verified so far:** public DHT discovery with LAN discovery disabled, authenticated material/photo transfer, live revisions, protected personal snapshots and third-peer relay after the author disconnects. Test instances ran on one physical computer with public IPv6; independent internet connections and routers still need testing.
 
 ## Updates and backups
 

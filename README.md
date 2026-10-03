@@ -6,7 +6,7 @@
 
 A Windows materials and settings library with photos, personal collections and direct peer-to-peer sharing. It works offline; connecting to another peer lets you exchange public records, photographs, ratings and feedback.
 
-[**Download 0.7.3 — early test release**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.3) · [Русский](README_RU.md) · [Report a problem](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
+[**Download 0.7.4 — early test release**](https://github.com/Ashgsh/TrapLight-LaserBase/releases/tag/v0.7.4) · [Русский](README_RU.md) · [Report a problem](https://github.com/Ashgsh/TrapLight-LaserBase/issues/new/choose)
 
 > **Early testing:** real testing between two separate computers is still needed. Please keep backups and report reproducible problems. This application records settings; it does not control a laser.
 
@@ -14,8 +14,8 @@ A Windows materials and settings library with photos, personal collections and d
 
 | Download | Best for |
 | --- | --- |
-| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.3/TrapLight_LaserBase_v0.7.3_SETUP.exe) | Installation for your Windows account, a Start menu shortcut and an optional desktop shortcut. No administrator access required by default. |
-| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.3/TrapLight_LaserBase_v0.7.3_PORTABLE.zip) | Extract into a writable folder and run `LaserBase.exe`. Keep the DLLs and subfolders together. |
+| [Setup.exe](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.4/TrapLight_LaserBase_v0.7.4_SETUP.exe) | Installation for your Windows account, a Start menu shortcut and an optional desktop shortcut. No administrator access required by default. |
+| [Portable.zip](https://github.com/Ashgsh/TrapLight-LaserBase/releases/download/v0.7.4/TrapLight_LaserBase_v0.7.4_PORTABLE.zip) | Extract into a writable folder and run `LaserBase.exe`. Keep the DLLs and subfolders together. |
 
 Windows x64. Neither download includes a preset database of manufacturer-tested material settings. The shared library starts with experiments contributed by users. No account or subscription is required. The current builds are not digitally signed.
 
@@ -28,6 +28,8 @@ Windows x64. Neither download includes a preset database of manufacturer-tested 
 - Export selected records and photographs to **Excel** or an **A4 print report**.
 - Save or restore your full private library as a single **`.lbbackup`** file.
 - Use English, Russian, Simplified Chinese, German, French or Spanish. Additional language files can be added locally.
+
+One material ID groups signed revisions. Open its revision arrow to see separate ratings, spam reports and photographs. Your saved copy has its own local ID and never changes when the author edits the public material. Replacing it with another revision requires your confirmation; saved recipes remain unchanged. Peers running older versions can relay materials and revision feedback, but need v0.7.4 to display revision-specific feedback.
 
 ![Library interface](images/library.png)
 
